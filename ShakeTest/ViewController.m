@@ -14,6 +14,13 @@
 
 @implementation ViewController
 
+- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+    NSLog(@"B");
+}
+
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+    NSLog(@"E");
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
